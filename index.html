@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            border: 4px solid #667eea;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        .title {
+            color: #667eea;
+            font-size: 18px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        
+        .bio {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #764ba2;
+        }
+        
+        .page-image {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .survey-link {
+            display: inline-block;
+            margin: 20px 0 10px;
+            padding: 10px 16px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .survey-link:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">👤</div>
+        
+        <h1>Minder Chen</h1>
+        <p class="title">Professor of MIS</p>
+        
+        <p class="bio">
+            Welcome to my bio page! This is a place where you can share a bit about yourself. 
+            Tell your story, highlight your achievements, and let people know what drives you. 
+            Feel free to customize this page with your own information, photos, and links.
+        </p>
+        
+        <div class="social-links">
+            <a href="#" title="Email">📧</a>
+            <a href="#" title="LinkedIn">💼</a>
+            <a href="#" title="GitHub">💻</a>
+            <a href="#" title="Twitter">🐦</a>
+        </div>
+
+        <a class="survey-link" href="survey.html">Take the Student Commute Survey</a>
+        
+        <img src="CICampus.jpg" alt="Campus" class="page-image">
+    </div>
+
+
+</body>
+</html>
